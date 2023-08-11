@@ -28,7 +28,7 @@ return (NULL);
 while (i < len1)
 {
 s[i] = s1[i];
-i++
+i++;
 }
 while (n < len2 && i < (len1 + n))
 s[i++] = s2[j++];
