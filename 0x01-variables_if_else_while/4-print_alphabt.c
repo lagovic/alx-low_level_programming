@@ -1,24 +1,20 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <string.h>
 /**
-* main - Entry point
-*
-* Return: Alwaysa 0 (Success)
+* main - Prints alphabets without q and  e
+* Return: Always a 0 (Success)
 */
-
 int main(void)
 {
-int lowerCase = 'a';
-while (lowerCase <= 'z')
+int i;
+
+for (i = 97; i < 123; i++)
 {
-if (lowerCase == 'e' || lowerCase == 'q')
-{
-lowerCase += 1;
+	if (i != 101 && i != 113)
+	{
+		putchar(i);
 }
-else
-{
-putchar(lowerCase);
-lowerCase += 1;
 }
 putchar('\n');
 return (0);

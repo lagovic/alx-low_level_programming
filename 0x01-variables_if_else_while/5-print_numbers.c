@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
+* main - Prints numbers numbers 0 to 9
 *
 * Return: Alwaysa 0 (Success)
 */
 
 int main(void)
 {
-int num;
-while (num < 10)
+
+	int num;
+
+	for (num = 0; num < 10; num++)
 {
-ptintf("@d", num);
-num += 1;
-{
+printf("%d", num);
+}
 printf("\n");
 return (0);
 }
