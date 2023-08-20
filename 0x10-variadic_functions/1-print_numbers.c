@@ -8,7 +8,7 @@
 * @n: Number of  integers in the function.
 * @...: Number of parameters to be printed
 */
-void print_numbers(const char *separator, const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list args;
 unsigned int i;

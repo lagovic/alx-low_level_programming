@@ -10,7 +10,7 @@
 * If seperator is NUll: do not print
 * If one of the string is NULL, print (nil) instead
 */
-void print_strings(const char *separator, const unsigned int n, ...);
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 va_list args;
 char *str;

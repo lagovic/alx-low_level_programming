@@ -7,7 +7,7 @@
 * @format: argument list passed to the function
 * @...: Number of parameters in the list
 */
-void print_all(const char * const format, ...);
+void print_all(const char * const format, ...)
 {
 int i;
 char *str, *separator;

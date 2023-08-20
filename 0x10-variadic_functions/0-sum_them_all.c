@@ -8,8 +8,9 @@
 * Return:  0 If n == 0
 * Otherwise - Return sum of all parameters.
 */
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
+
 va_list args;
 unsigned int i;
 unsigned int sum;
